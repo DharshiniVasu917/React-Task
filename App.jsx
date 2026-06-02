@@ -1,11 +1,12 @@
-import Navbar from './Components/Navbar';
-import Main from './Components/Page';
+import Header  from "./Component/Header";
+import Entry from "./Component/Entry";
 
-export default function Main(){
+
+export default function App(){
     return(
         <>
-        <Navbar/>
-        <Main/>
+        <Header/>
+        <Entry/>
         </>
     )
 }
